@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 20px;
+}
+nav .container {
+  display: flex;
+}
+nav .container img {
+  width: 25px;
+}
