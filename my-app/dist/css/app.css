@@ -76,15 +76,20 @@ img.icon {
   width: 25px;
 }
 
-.jumbotron h1 {
+.jumbotron {
+  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
+  background-size: 600px;
+}
+.jumbotron .jumbo-text {
+  width: 40%;
+}
+.jumbotron .jumbo-text h1 {
   color: #58453C;
   font-size: 4rem;
-  width: 40%;
   line-height: 6rem;
-  margin: 0;
+  margin-top: 3rem;
 }
-.jumbotron p {
+.jumbotron .jumbo-text p {
   font-size: 1.5rem;
-  width: 40%;
   line-height: 2.5rem;
 }

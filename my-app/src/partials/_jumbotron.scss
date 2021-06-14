@@ -1,15 +1,19 @@
 .jumbotron{
-    h1{
-    color: $brand_primary;
-    font-size: 4rem;
-    width: 40%;
-    line-height: 6rem;
-    margin: 0;
-    }
-    p{
-        font-size: 1.5rem;
+    background-image: url(../img/illustration-main.jpg);
+    background-size: 600px;
+    .jumbo-text{
         width: 40%;
-        line-height: 2.5rem;
+        h1{
+        color: $brand_primary;
+        font-size: 4rem;
+        line-height: 6rem;
+        margin-top: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
     }
+
 }
 
