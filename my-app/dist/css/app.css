@@ -78,7 +78,7 @@ img.icon {
 
 .jumbotron {
   background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
-  background-size: 600px;
+  width: 100%;
 }
 .jumbotron .jumbo-text {
   width: 40%;
