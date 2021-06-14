@@ -158,7 +158,7 @@ img.icon {
 
 .stats {
   width: 100%;
-  padding-top: 3rem;
+  padding: 3rem 0;
   color: #58453C;
 }
 .stats h2 {
@@ -173,38 +173,31 @@ img.icon {
   text-decoration: none;
   color: #2C4792;
 }
-.stats .feedback {
+.stats .left {
   display: flex;
 }
-.stats .feedback img {
+.stats .left img {
   width: 50%;
 }
-.stats .feedback .feedback_txt {
+.stats .left .left_txt {
   width: 20%;
 }
-.stats .survey {
+.stats .right {
   display: flex;
   justify-content: flex-end;
   margin-top: 3rem;
 }
-.stats .survey img {
+.stats .right img {
   width: 50%;
 }
-.stats .survey .survey_txt {
+.stats .right .right_txt {
   width: 20%;
 }
-.stats .survey .feedback_txt h2 {
+.stats .left_txt h2, .stats .right_txt h2 {
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
-.stats .survey .feedback_txt p {
-  margin-bottom: 4rem;
-}
-.stats .survey h2 {
-  margin-top: 1rem;
-  margin-bottom: 5rem;
-}
-.stats .survey p {
+.stats .left_txt p, .stats .right_txt p {
   margin-bottom: 4rem;
 }
 .stats .container_small {
@@ -214,10 +207,10 @@ img.icon {
 .stats .container_small img {
   height: 300px;
 }
-.stats .container_small .communication {
+.stats .container_small .communication, .stats .container_small .left {
   display: flex;
   justify-content: flex-end;
 }
-.stats .container_small .insights {
+.stats .container_small .right {
   display: flex;
 }

@@ -1,6 +1,6 @@
 .stats{
     width: 100%;
-    padding-top: 3rem;
+    padding: 3rem 0;
     color: $brand_primary;
     h2{
         font-size: 2rem;
@@ -14,26 +14,27 @@
         text-decoration: none;
         color: $blue_buttons;
     }
-    .feedback{
+    .left{
         display: flex;
         img{
             width: 50%;
         }
-        .feedback_txt{
+        .left_txt{
             width: 20%;
         }
     }
-    .survey{
+    .right{
         display: flex;
         justify-content: flex-end;
         margin-top: 3rem;
         img{
             width: 50%;
         }
-        .survey_txt{
+        .right_txt{
             width: 20%;
+        }
     }
-    .feedback_txt{
+    .left_txt, .right_txt{
         h2{
             margin-top: 1rem;
             margin-bottom: 5rem;
@@ -42,25 +43,17 @@
             margin-bottom: 4rem;
         }
     }
-    h2{
-                margin-top: 1rem;
-                margin-bottom: 5rem;
-            }
-            p{
-                margin-bottom: 4rem;
-            }
-    }
     .container_small{
         margin: 0 auto;
         width: 35%;
         img{
             height: 300px;
         }
-        .communication{
+        .communication, .left{
             display: flex;
             justify-content: flex-end;
         }
-        .insights{
+        .right{
             display: flex; 
         }
     }
