@@ -1,0 +1,52 @@
+.stats{
+    width: 100%;
+    padding-top: 3rem;
+    color: $brand_primary;
+    h2{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    a{
+        text-decoration: none;
+        color: $blue_buttons;
+    }
+    .feedback, .survey{
+        display: flex;
+        img{
+            width: 50%;
+        }
+        .feedback_txt, .survey_txt{
+            width: 20%;
+        }
+    .feedback_txt{
+        h2{
+            margin-top: 1rem;
+            margin-bottom: 5rem;
+        }
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+    h2{
+                margin-top: 1rem;
+                margin-bottom: 5rem;
+            }
+            p{
+                margin-bottom: 4rem;
+            }
+    }
+    .container_small{
+        width: 70%;
+        .communication{
+            display: flex;
+            justify-content: flex-end;
+            img{
+                height: 250px;
+            }
+        }
+    }
+}

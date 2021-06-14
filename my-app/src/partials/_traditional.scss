@@ -1,21 +1,36 @@
 .traditional{
     text-align: center;
     background-color: $brand_secondary;
-    padding: 3.5rem 0;
+    padding: 3rem 0;
     h2{
         font-size: 2rem;
         width: 40%;
-        margin: 0 auto;
+        margin: 3rem auto;
+
+    }
+    hr{
+        width: 100%;
+        color: black;
     }
     .cards{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 2rem;
+        margin: 2rem 2rem 0 2rem;
         .card{
             img{
                 height: 120px;
             }
+            p{
+                margin-top: 2rem;
+            }
+        }
+    }
+    .before{
+        img{
+            height: 300px;
+            margin-top: 4rem;
+            margin-bottom: 6rem;
         }
     }
     

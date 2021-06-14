@@ -127,19 +127,82 @@ img.icon {
 .traditional {
   text-align: center;
   background-color: #FFE7D2;
-  padding: 3.5rem 0;
+  padding: 3rem 0;
 }
 .traditional h2 {
   font-size: 2rem;
   width: 40%;
-  margin: 0 auto;
+  margin: 3rem auto;
+}
+.traditional hr {
+  width: 100%;
+  color: black;
 }
 .traditional .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  margin: 2rem 2rem 0 2rem;
 }
 .traditional .cards .card img {
   height: 120px;
+}
+.traditional .cards .card p {
+  margin-top: 2rem;
+}
+.traditional .before img {
+  height: 300px;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.stats {
+  width: 100%;
+  padding-top: 3rem;
+  color: #58453C;
+}
+.stats h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.stats p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.stats a {
+  text-decoration: none;
+  color: #2C4792;
+}
+.stats .feedback, .stats .survey {
+  display: flex;
+}
+.stats .feedback img, .stats .survey img {
+  width: 50%;
+}
+.stats .feedback .feedback_txt, .stats .feedback .survey_txt, .stats .survey .feedback_txt, .stats .survey .survey_txt {
+  width: 20%;
+}
+.stats .feedback .feedback_txt h2, .stats .survey .feedback_txt h2 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.stats .feedback .feedback_txt p, .stats .survey .feedback_txt p {
+  margin-bottom: 4rem;
+}
+.stats .feedback h2, .stats .survey h2 {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+.stats .feedback p, .stats .survey p {
+  margin-bottom: 4rem;
+}
+.stats .container_small {
+  width: 70%;
+}
+.stats .container_small .communication {
+  display: flex;
+  justify-content: flex-end;
+}
+.stats .container_small .communication img {
+  height: 250px;
 }
