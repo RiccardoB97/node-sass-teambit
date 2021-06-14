@@ -173,36 +173,51 @@ img.icon {
   text-decoration: none;
   color: #2C4792;
 }
-.stats .feedback, .stats .survey {
+.stats .feedback {
   display: flex;
 }
-.stats .feedback img, .stats .survey img {
+.stats .feedback img {
   width: 50%;
 }
-.stats .feedback .feedback_txt, .stats .feedback .survey_txt, .stats .survey .feedback_txt, .stats .survey .survey_txt {
+.stats .feedback .feedback_txt {
   width: 20%;
 }
-.stats .feedback .feedback_txt h2, .stats .survey .feedback_txt h2 {
+.stats .survey {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+.stats .survey img {
+  width: 50%;
+}
+.stats .survey .survey_txt {
+  width: 20%;
+}
+.stats .survey .feedback_txt h2 {
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
-.stats .feedback .feedback_txt p, .stats .survey .feedback_txt p {
+.stats .survey .feedback_txt p {
   margin-bottom: 4rem;
 }
-.stats .feedback h2, .stats .survey h2 {
+.stats .survey h2 {
   margin-top: 1rem;
   margin-bottom: 5rem;
 }
-.stats .feedback p, .stats .survey p {
+.stats .survey p {
   margin-bottom: 4rem;
 }
 .stats .container_small {
-  width: 70%;
+  margin: 0 auto;
+  width: 35%;
+}
+.stats .container_small img {
+  height: 300px;
 }
 .stats .container_small .communication {
   display: flex;
   justify-content: flex-end;
 }
-.stats .container_small .communication img {
-  height: 250px;
+.stats .container_small .insights {
+  display: flex;
 }

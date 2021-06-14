@@ -14,14 +14,25 @@
         text-decoration: none;
         color: $blue_buttons;
     }
-    .feedback, .survey{
+    .feedback{
         display: flex;
         img{
             width: 50%;
         }
-        .feedback_txt, .survey_txt{
+        .feedback_txt{
             width: 20%;
         }
+    }
+    .survey{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3rem;
+        img{
+            width: 50%;
+        }
+        .survey_txt{
+            width: 20%;
+    }
     .feedback_txt{
         h2{
             margin-top: 1rem;
@@ -40,13 +51,17 @@
             }
     }
     .container_small{
-        width: 70%;
+        margin: 0 auto;
+        width: 35%;
+        img{
+            height: 300px;
+        }
         .communication{
             display: flex;
             justify-content: flex-end;
-            img{
-                height: 250px;
-            }
+        }
+        .insights{
+            display: flex; 
         }
     }
 }
