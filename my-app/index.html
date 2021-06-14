@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link main CSS -->
     <link rel="stylesheet" href="./dist/css/app.css">
+    <!-- Link FontAwesome -->
+    <script src="https://kit.fontawesome.com/1d47f7a9f5.js" crossorigin="anonymous"></script>
     <title>Teambit</title>
 </head>
 <body>
@@ -12,8 +15,29 @@
     <header id="site_header">
         <nav>
             <div class="container">
-                <img src="./src/img/logo-small.svg" alt="">
+                <div class="logo">
+                    <img src="./src/img/logo-small.svg" alt="" class="icon">
+                    <a href="#">Teambit</a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Solutions <i class="fas fa-chevron-down"></i></a>  
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Sign in</a>
+                    </li>
+                    <li>
+                        <a href="#" class="btn_empty"><img src="./src/img/google-logo.svg" alt="" class="icon"> Sign up</a>
+                    </li>
+                </ul>
             </div>
+            <hr>
         </nav>
     </header>
     <!-- /site header -->
@@ -28,5 +52,7 @@
     </footer>
     <!-- /site footer -->
 
+    <!-- main JS file -->
+    <script src="./dist/js/app.js"></script>
 </body>
 </html>

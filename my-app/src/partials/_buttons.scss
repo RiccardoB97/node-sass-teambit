@@ -1,0 +1,13 @@
+.btn_empty{
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    border: 1px solid $blue_buttons;
+    color: $blue_buttons;
+    display: flex;
+    align-items: center;
+    &:hover{
+        background-color: $blue_buttons;
+        color: white;
+    }
+}
