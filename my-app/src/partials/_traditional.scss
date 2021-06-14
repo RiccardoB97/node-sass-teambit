@@ -1,0 +1,22 @@
+.traditional{
+    text-align: center;
+    background-color: $brand_secondary;
+    padding: 3.5rem 0;
+    h2{
+        font-size: 2rem;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2rem;
+        .card{
+            img{
+                height: 120px;
+            }
+        }
+    }
+    
+}

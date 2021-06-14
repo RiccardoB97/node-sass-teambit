@@ -8,6 +8,7 @@
 .container {
   width: 90%;
   margin: 0 auto;
+  color: #58453C;
 }
 
 p {
@@ -72,24 +73,73 @@ nav .container ul li:not(:last-child) a {
   color: white;
 }
 
+.btn_full {
+  border-radius: 0.4rem;
+  background-color: #2C4792;
+  border: 1px solid white;
+  padding: 0.2rem 0.6rem;
+}
+.btn_full a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.btn_full:hover {
+  background-color: white;
+  color: #2C4792;
+  border: 1px solid #2C4792;
+}
+
 img.icon {
   width: 25px;
 }
 
-.jumbotron {
-  background-image: url(/images/illustration-main.jpg?4546d9b111de47e6029b3301b0599399);
-  width: 100%;
+.jumbo {
+  background-image: url("/my-app/img/illustration-main.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 90% 80%;
+  margin-bottom: 3rem;
 }
-.jumbotron .jumbo-text {
-  width: 40%;
+.jumbo .jumbo-text {
+  width: 42%;
 }
-.jumbotron .jumbo-text h1 {
+.jumbo .jumbo-text h1 {
   color: #58453C;
   font-size: 4rem;
   line-height: 6rem;
   margin-top: 3rem;
 }
-.jumbotron .jumbo-text p {
+.jumbo .jumbo-text p {
   font-size: 1.5rem;
   line-height: 2.5rem;
+}
+.jumbo .jumbo-text .sign_up {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 1.5rem 0;
+}
+.jumbo .jumbo-text .sign_up span {
+  margin: 0 0.4rem;
+}
+
+.traditional {
+  text-align: center;
+  background-color: #FFE7D2;
+  padding: 3.5rem 0;
+}
+.traditional h2 {
+  font-size: 2rem;
+  width: 40%;
+  margin: 0 auto;
+}
+.traditional .cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.traditional .cards .card img {
+  height: 120px;
 }

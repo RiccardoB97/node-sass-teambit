@@ -11,3 +11,21 @@
         color: white;
     }
 }
+
+.btn_full{
+    border-radius: 0.4rem;
+    background-color: $blue_buttons;
+    border: 1px solid white;
+    padding: 0.2rem 0.6rem;
+    & a{
+        color: white;
+        text-decoration: none;
+        display: flex;
+    align-items: center;
+    }
+    &:hover{
+        background-color: white;
+        color: $blue_buttons;
+        border: 1px solid $blue_buttons;
+    }
+}
