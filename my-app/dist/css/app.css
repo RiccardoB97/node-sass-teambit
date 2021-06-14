@@ -1,4 +1,4 @@
-body {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,29 +10,14 @@ body {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
+p {
   color: #58453C;
 }
 
 hr {
   width: 90%;
   color: #58453C;
-  margin: 0 auto;
-}
-
-.btn_empty {
-  padding: 0.7rem 1rem;
-  border-radius: 0.3rem;
-  background-color: white;
-  border: 1px solid #2C4792;
-  color: #2C4792;
-  display: flex;
-  align-items: center;
-}
-.btn_empty:hover {
-  background-color: #2C4792;
-  color: white;
+  margin: 0.8rem auto;
 }
 
 nav {
@@ -50,6 +35,8 @@ nav .container .logo {
 }
 nav .container .logo > a {
   font-size: 1.5rem;
+  color: #58453C;
+  text-decoration: none;
 }
 nav .container .logo img {
   margin: 0 0.8rem;
@@ -64,7 +51,40 @@ nav .container ul li {
   padding: 0 10px;
   font-weight: bold;
 }
+nav .container ul li a {
+  text-decoration: none;
+}
+nav .container ul li:not(:last-child) a {
+  color: #58453C;
+}
+
+.btn_empty {
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  background-color: white;
+  border: 1px solid #2C4792;
+  color: #2C4792;
+  display: flex;
+  align-items: center;
+}
+.btn_empty:hover {
+  background-color: #2C4792;
+  color: white;
+}
 
 img.icon {
   width: 25px;
+}
+
+.jumbotron h1 {
+  color: #58453C;
+  font-size: 4rem;
+  width: 40%;
+  line-height: 6rem;
+  margin: 0;
+}
+.jumbotron p {
+  font-size: 1.5rem;
+  width: 40%;
+  line-height: 2.5rem;
 }

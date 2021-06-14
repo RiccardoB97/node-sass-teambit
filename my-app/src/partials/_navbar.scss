@@ -10,6 +10,8 @@ nav {
             height: 100%;
             &>a{
                 font-size: 1.5rem;
+                color: $brand_primary;
+                text-decoration: none;
             }
             img{
                 margin: 0 0.8rem;
@@ -23,8 +25,15 @@ nav {
                 display: inline-block;
                 padding: 0 10px;
                 font-weight: bold;
+                a{
+                    text-decoration: none;
+                }
             }
-            
+            li:not(:last-child){
+                a{
+                    color: $brand_primary;
+                }
+            }
         }
     }
 }

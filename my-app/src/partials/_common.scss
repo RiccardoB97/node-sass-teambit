@@ -1,4 +1,4 @@
-body{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,13 +10,12 @@ body{
     margin: 0 auto;
 }
 
-a{
-    text-decoration: none;
+p{
     color: $brand_primary;
 }
 
 hr{
     width: 90%;
     color: $brand_primary;
-    margin: 0 auto;
+    margin: 0.8rem auto;
 }
